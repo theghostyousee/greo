@@ -70,6 +70,7 @@ body {
   font-family: Montserrat;
   font-size: 20px;
   margin-top: 20px;
+  z-index: 99;
   font-weight: 700;
   height: 52px;
   cursor: pointer;
