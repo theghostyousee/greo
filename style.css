@@ -27,7 +27,7 @@ body {
   position: relative;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background-color: #4C9540;
   overflow: hidden;
 
   background-repeat: no-repeat;
@@ -39,8 +39,7 @@ body {
 
 .index-header {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(0deg, #353233 0, #ffffff 50%);
-  background-clip: none;
+
   -webkit-background-clip: text;
   font-family: Montserrat;
   text-align: center;
@@ -61,13 +60,12 @@ body {
 
 .early-whitelist {
   align-items: center;
-  background: linear-gradient(0deg, #dfd5d3 0, #e5e5e5 60%);
-  background-color: initial;
-  border: none;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 100px;
-  color: #000;
+  color: #ffffff;
   display: flex;
-  font-family: Montserrat;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
   margin-top: 20px;
   z-index: 99;
@@ -79,6 +77,9 @@ body {
   width: 220px;
 }
 
+.early-whitelist:hover{
+  background-color: rgba(255, 255, 255, 0.274);
+}
 .wrap {
   display: flex;
   flex-direction: column;
@@ -91,7 +92,7 @@ body {
 
 .spin {
   align-items: center;
-  width: 100%;
+  width: 10%;
   height: 30%;
   -webkit-animation: spin 20s linear infinite;
   animation: spin 20s linear infinite;
@@ -109,19 +110,13 @@ body {
 @media screen and (max-width: 420px) {
   .index-header {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(0deg, #353233 0, #ffffff 50%);
-    background-clip: none;
-    -webkit-background-clip: text;
-    font-family: Montserrat;
     text-align: center;
-    background-color: red;
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
     font-size: 42px;
     letter-spacing: 0.06em;
-    text-shadow: 0 0 6px rgba(255, 239, 237, 0.6);
     text-transform: uppercase;
   }
   .index-sub {
@@ -129,19 +124,12 @@ body {
     font-size: 12px;
     font-weight: bolder;
     letter-spacing: 0.02em;
-    color: white;
-    text-shadow: 0 0 6px rgba(255, 106, 79, 0.6);
   }
 
   .early-whitelist {
     align-items: center;
-    background: linear-gradient(0deg, #dfd5d3 0, #e5e5e5 60%);
-    background-color: initial;
-    border: none;
     border-radius: 100px;
-    color: #000;
     display: flex;
-    font-family: Montserrat;
     font-size: 15px;
     margin-top: 20px;
     font-weight: 700;
@@ -166,12 +154,7 @@ body {
 
   .index-header {
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(0deg, #353233 0, #ffffff 50%);
-    background-clip: none;
     -webkit-background-clip: text;
-    font-family: Montserrat;
-    text-align: center;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,28 +162,20 @@ body {
     align-items: center;
     font-size: 32px;
     letter-spacing: 0.06em;
-    text-shadow: 0 0 6px rgba(255, 239, 237, 0.6);
     text-transform: uppercase;
   }
   .index-sub {
-    font-family: Montserrat;
     align-items: center;
     font-size: 12px;
     font-weight: bolder;
     letter-spacing: 0.02em;
-    color: white;
-    text-shadow: 0 0 6px rgba(255, 106, 79, 0.6);
   }
 
   .early-whitelist {
-    align-items: center;
-    background: linear-gradient(0deg, #dfd5d3 0, #e5e5e5 60%);
-    background-color: initial;
-    border: none;
     border-radius: 100px;
-    color: #000;
     display: flex;
-    font-family: Montserrat;
+    border: 1px solid white;
+
     font-size: 15px;
     margin-top: 20px;
     font-weight: 700;
